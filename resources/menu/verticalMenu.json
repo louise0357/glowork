@@ -1,0 +1,58 @@
+{
+  "menu": [
+
+    {
+      "name": "Dashboards",
+      "icon": "menu-icon tf-icons ri-home-smile-line",
+      "slug": "dashboard",
+      "badge": [
+        "danger",
+        "5"
+      ]
+    },
+
+    {
+      "menuHeader": "Charts & Maps"
+    },
+    {
+      "name": "Charts",
+      "icon": "menu-icon tf-icons ri-bar-chart-2-line",
+      "slug": "charts",
+      "submenu": [
+        {
+          "url": "charts/apex",
+          "name": "Apex Charts",
+          "slug": "charts-apex"
+        },
+        {
+          "url": "charts/chartjs",
+          "name": "ChartJS",
+          "slug": "charts-chartjs"
+        }
+      ]
+    },
+    {
+      "url": "maps/leaflet",
+      "icon": "menu-icon tf-icons ri-map-2-line",
+      "name": "Leaflet Maps",
+      "slug": "maps-leaflet"
+    },
+    {
+      "menuHeader": "Misc"
+    },
+    {
+      "url": "https://themeselection.com/support/",
+      "icon": "menu-icon tf-icons ri-lifebuoy-line",
+      "name": "Support",
+      "slug": "support",
+      "target": "_blank"
+    },
+    {
+      "url": "https://demos.themeselection.com/materio-bootstrap-html-admin-template/documentation/laravel-introduction.html",
+      "icon": "menu-icon tf-icons ri-article-line",
+      "name": "Documentation",
+      "slug": "documentation",
+      "target": "_blank"
+    }
+  ]
+}
